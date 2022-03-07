@@ -28,6 +28,8 @@ Icons didn't work, they apparently do in React...
 
 - [x] Render the right HTML element at different times
 
+![screenshot](rock-scissors-paper.png?raw=true "Screenshot of play time")
+
 ## Credits:
 
 - Based on Ada College Apprentices Tutorial: https://github.com/adaapp/rock-paper-typescript
