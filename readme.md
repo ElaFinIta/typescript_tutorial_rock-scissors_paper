@@ -1,4 +1,4 @@
-# hands-on with vanilla typscript
+# hands-on with vanilla typescript
 
 1. Install typescript:
 ```sh
