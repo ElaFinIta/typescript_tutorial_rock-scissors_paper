@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-scissor-paper with Typescript</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="start-view">
+      <button class="start-button" onclick="startGame()">Start Game</button>
+      <p>It's you against the computer. Three moves make one round.</p>
+    </div>
+    <div class="game-buttons">
+        <button onclick="handleUserChoice(0)">Rock</button>
+        <button onclick="handleUserChoice(1)">Paper</button>
+        <button onclick="handleUserChoice(2)">Scissors</button>
+    </div>
+    <section class="instructions">
+    </section>
+    <div class="moves">
+    </div>
+    <div class="result"></div>
+</body>
+<script src="js/game.js"></script>
+</html>
